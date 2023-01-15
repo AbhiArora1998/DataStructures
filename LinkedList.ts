@@ -12,9 +12,9 @@ interface List<P>{
 }
 
 
-class LinkedList<P> {
+export class LinkedList<P> {
     
-    private list:List<P> |undefined
+    public list:List<P> |undefined
     
     constructor(){
         this.list = undefined; 
