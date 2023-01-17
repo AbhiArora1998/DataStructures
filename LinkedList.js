@@ -4,6 +4,7 @@
 // these can used for instance in spotfiy where we can traverse back and forth and they are efficient than regular arrays
 // they usually have head and tail that can be used to determine the first and the last pointer and the values in between points to each other 
 exports.__esModule = true;
+exports.LinkedList = void 0;
 var LinkedListNode_1 = require("./LinkedListNode");
 var LinkedList = /** @class */ (function () {
     function LinkedList() {
@@ -139,10 +140,4 @@ var LinkedList = /** @class */ (function () {
     };
     return LinkedList;
 }());
-var linkedList = new LinkedList();
-linkedList.addFront(2);
-linkedList.addFront(3);
-linkedList.addBack(5);
-console.log(linkedList.get(0));
-console.log(linkedList.get(1));
-console.log(linkedList.get(2));
+exports.LinkedList = LinkedList;

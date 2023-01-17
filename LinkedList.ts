@@ -160,11 +160,4 @@ export class LinkedList<P> {
     
 }
 
-const linkedList = new LinkedList();
-linkedList.addFront(2)
-linkedList.addFront(3)
-linkedList.addBack(5)
-console.log(linkedList.get(0))
 
-console.log(linkedList.get(1))
-console.log(linkedList.get(2))
